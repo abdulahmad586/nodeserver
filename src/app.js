@@ -10,7 +10,7 @@ app
 
 app
     .get('/', (req, res) => {
-        res.status(200).json({ message: 'Welcome to our Node server ---> Ready for production' });
+        res.status(200).json({ message: 'Welcome to our Node server ---> Ready for production, Speak spanish? try /hola' });
     })
     .get('/hola', (req, res) => {
         res.status(200).json({ message: 'Bienvenido a nuestro servidor de nodos ---> Listo para la producción' });
